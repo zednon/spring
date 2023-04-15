@@ -1,0 +1,59 @@
+header {
+    background-color: pink;
+    height: auto;
+}
+
+.main {
+ display: grid;
+ grid-template-columns: 1fr 2fr 2fr 1fr;
+   
+    margin-top: 100px;
+}
+
+footer {
+    height: 200px;
+    background-color: lightblue;
+}
+
+*, 
+*::before, 
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bio {
+    padding: 5%;
+}
+
+.resumeButton:hover{
+    background-color: lightblue;
+}
+
+
+.resumeButton {
+    padding: 2%;
+    background-color: bisque;
+    text-decoration: none;
+}
+
+.liNavTop {
+    display: inline-block;
+    padding:15px 30px;
+}
+
+.ulNavTop {
+    font-size: 20px;
+}
+
+.liNavTop a:hover {
+    background-color: bisque;
+}
+
+.liNavTop a {
+    color: blueviolet;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
